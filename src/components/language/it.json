@@ -1,0 +1,42 @@
+{
+  "homePage": {
+    "home": "Casa",
+    "about": "Di sono",
+    "contact": "Contatto",
+    "homeTitle": "Trasporti Imbianchino Elettricista",
+    "description": "Che tu abbia bisogno di assistenza elettrica, decorazioni d'interni, piccoli interventi di muratura, sgombero, trasporti o piccoli traslochi, posso aiutarti a realizzare i tuoi progetti. Con un impegno totale verso la qualità e l'attenzione ai dettagli, ti garantisco che otterrai i risultati desiderati.",
+    "works": "Guarda alcuni dei miei lavori",
+    "paint": "Imbianchino",
+    "flash": "Elettricista",
+    "transporter": "Trasporti"
+  },
+  "electric": {
+    "Title": "Installazioni Elettriche: Illumina il Tuo Ambiente!",
+    "description": "Servizi elettrici professionali, garantendo l'installazione, la riparazione e la manutenzione dei sistemi elettrici. Garantisco la sicurezza e il corretto funzionamento delle tue installazioni.",
+    "Gallery": "Galleria"
+  },
+  "Painter": {
+    "Title": "Servizi di Decorazione e Piccole Opere di Muratura: Trasforma il tuo Spazio!",
+    "description": "Offriamo servizi di decorazione è piccoli lavori in muratura.",
+    "Gallery": "Galleria"
+  },
+  "Transport": {
+    "Title": "Servizi di Transporti",
+    "description": "Se hai bisogno di servizi di trasporto affidabili e professionali, sono qui per te. Offro soluzioni su misura per le tue esigenze di trasporto. Che tu debba spostare mobili, merci o qualsiasi altra cosa, puoi contare su di me per un servizio efficiente e sicuro.",
+    "Gallery": "Galleria"
+  },
+  "Contact": {
+    "Title": "CONTATTO",
+    "description": "Torino e provincia contattare direttamente su WhatsApp"
+  },
+  "copyNumber": "Il numero è stato copiato ",
+  "whatsappHello": "Salve, come posso aiutarla?",
+  "whatsappStatus": "Rispondiamo rapidamente",
+  "whatsappPlaceHolder": "Mandaci un messaggio",
+  "languageSelector": {
+    "title": "Lingua",
+    "en": "Inglese",
+    "ro": "Rumeno",
+    "it": "Italiano"
+  }
+}

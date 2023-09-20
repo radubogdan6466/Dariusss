@@ -1,0 +1,43 @@
+{
+  "homePage": {
+    "home": "Home",
+    "about": "About Me",
+    "contact": "Contact",
+    "homeTitle": "Painter Electrician Transportation",
+    "description": "Whether you need electrical services, interior decorations, small masonry work, cleaning, transportation, or small moves, I can help you bring your projects to life. With total dedication to quality and attention to detail, I guarantee you will achieve the desired results.",
+    "works": "See some of my works",
+    "paint": "Painter",
+    "flash": "Electrician",
+    "transporter": "Transportation"
+  },
+  "electric": {
+    "Title": "Electrical Installations: Illuminate Your Space!",
+    "description": "Professional electrical services, ensuring installation, repair, and maintenance of electrical systems. I guarantee the safety and proper functioning of your installations.",
+    "Gallery": "Photo Gallery"
+  },
+  "Painter": {
+    "Title": "Decoration Services and Small Masonry Works: Transform Your Space!",
+    "description": "If you want to breathe new life into your environment, I'm here to help. I offer customized decoration services and small masonry works. Give your home a new perspective. Contact me for a personalized offer.",
+    "Gallery": "Photo Gallery"
+  },
+  "Transport": {
+    "Title": "Transportation Services",
+    "description": "If you need reliable and professional transportation services, I'm here for you. I offer customized solutions for your transportation needs. Whether you need to move furniture, goods, or anything else, you can count on me for efficient and safe service.",
+    "Gallery": "Photo Gallery"
+  },
+  "Contact": {
+    "Title": "CONTACT",
+    "description": "Turin and province. Contact directly via WhatsApp."
+  },
+  "copyNumber": "The number has been copied",
+  "whatsappHello": "Hello, how can i help you?",
+  "whatsappStatus": "We answer quickly",
+  "whatsappPlaceHolder": "Send us a message",
+
+  "languageSelector": {
+    "title": "Language",
+    "en": "English",
+    "ro": "Romanian",
+    "it": "Italian"
+  }
+}

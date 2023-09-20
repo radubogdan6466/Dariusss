@@ -1,0 +1,43 @@
+{
+  "homePage": {
+    "home": "Acasă",
+    "about": "Despre mine",
+    "contact": "Contact",
+    "homeTitle": "Vopsitor Electrician Transport",
+    "description": "Fie că ai nevoie de servicii electrice, decorațiuni interioare, mici intervenții de zidărie, curățenie, transport sau mici mutări, te pot ajuta să-ți realizezi proiectele. Cu o dedicare totală către calitate și atenție la detalii, îți garantez că vei obține rezultatele dorite.",
+    "works": "Vezi câteva dintre lucrările mele",
+    "paint": "Vopsitor",
+    "flash": "Electrician",
+    "transporter": "Transport"
+  },
+  "electric": {
+    "Title": "Instalații Electrice: Iluminează-ți Spațiul!",
+    "description": "Servicii electrice profesionale, asigurând instalarea, repararea și întreținerea sistemelor electrice. Garantez siguranța și funcționarea corectă a instalațiilor tale.",
+    "Gallery": "Galerie foto"
+  },
+  "Painter": {
+    "Title": "Servicii de Decorațiuni și Mici Lucrări de Zidărie: Transformă-ți Spațiul!",
+    "description": "Dacă vrei să aduci un suflu nou mediului tău, sunt aici să te ajut. Ofer servicii de decorațiuni și mici lucrări de zidărie personalizate. Dă-ți locuinței tale o nouă perspectivă. Contactează-mă pentru o ofertă personalizată.",
+    "Gallery": "Galerie foto"
+  },
+  "Transport": {
+    "Title": "Servicii de Transport",
+    "description": "Dacă ai nevoie de servicii de transport fiabile și profesionale, sunt aici pentru tine. Ofer soluții personalizate pentru nevoile tale de transport. Fie că trebuie să muți mobilă, mărfuri sau orice altceva, poți conta pe mine pentru un serviciu eficient și sigur.",
+    "Gallery": "Galerie foto"
+  },
+  "Contact": {
+    "Title": "CONTACT",
+    "description": "Torino și provincia. Contactează direct prin WhatsApp."
+  },
+  "copyNumber": "Numărul a fost copiat ",
+  "whatsappHello": "Salut, cu ce te pot ajuta?",
+  "whatsappStatus": "Raspundem rapid",
+  "whatsappPlaceHolder": "Trimite-ne un mesaj",
+
+  "languageSelector": {
+    "title": "Limba",
+    "en": "Engleza",
+    "ro": "Romana",
+    "it": "Italiana"
+  }
+}

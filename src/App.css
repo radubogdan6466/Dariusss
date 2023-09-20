@@ -6,7 +6,26 @@
   background-size: cover;
   background-position: center;
 }
-.App {
+@media (max-width: 600px) {
+  h1 {
+    font-size: 25px; /* Schimbă dimensiunea textului pentru ecranele mai mici */
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .button-content {
+    font-size: 11px;
+  }
+}
+.spacer {
+  height: 30px; /* Ajustează înălțimea după necesități */
+}
+.button-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 /*scroll button*/
 .scroll-to-top {
@@ -74,10 +93,10 @@ button {
   background: none;
   border: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 22px;
   text-transform: uppercase;
   cursor: pointer;
-  margin: 0 10px;
+  margin: 10px;
   position: relative;
 }
 
@@ -182,7 +201,7 @@ button {
 /* contact content*/
 .ContactComponent {
   width: 100%;
-  min-height: 100vh;
+  height: 80vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(contact.jpg);
   background-size: cover;
@@ -204,4 +223,44 @@ button {
   position: fixed;
   bottom: 20px;
   right: 20px;
+}
+/* footer*/
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(contact.jpg);
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8; /* Add background color if desired */
+  color: #000; /* Add text color if desired */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.facebook-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.facebook-icon {
+  color: #4267b2;
+  font-size: 2em;
+}
+
+.facebook-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo {
+  height: 30px;
+}
+
+.copyright {
+  color: #fff;
+  margin-top: 10px;
 }

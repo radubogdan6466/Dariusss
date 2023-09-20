@@ -3,35 +3,27 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
 import "../../App.css";
 import { useTranslation } from "react-i18next";
-
 const images = [
   {
     original: require("../../images/transport/mainImg.jpg"),
-    thumbnail: require("../../images/transport/mainImg.jpg"),
   },
   {
     original: require("../../images/transport/image1.jpg"),
-    thumbnail: require("../../images/transport/image1.jpg"),
   },
   {
     original: require("../../images/transport/image2.jpg"),
-    thumbnail: require("../../images/transport/image2.jpg"),
   },
   {
     original: require("../../images/transport/image3.jpg"),
-    thumbnail: require("../../images/transport/image3.jpg"),
   },
   {
     original: require("../../images/transport/image4.jpg"),
-    thumbnail: require("../../images/transport/image4.jpg"),
   },
   {
     original: require("../../images/transport/image5.jpg"),
-    thumbnail: require("../../images/transport/image5.jpg"),
   },
   {
     original: require("../../images/transport/image6.jpg"),
-    thumbnail: require("../../images/transport/image6.jpg"),
   },
 ];
 const Trasporti = () => {
@@ -44,7 +36,12 @@ const Trasporti = () => {
         <p>{t("Transport.description")}</p>
         <div className="works">
           <h2>{t("Transport.Gallery")}</h2>
-          <ImageGallery items={images} />
+          <ImageGallery
+            items={images}
+            showPlayButton={false}
+            showFullscreenButton={false}
+            slideDuration={1000}
+          />
         </div>
       </div>
     </div>

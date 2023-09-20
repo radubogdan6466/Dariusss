@@ -6,6 +6,7 @@ import Elettricista from "./components/pages/Elettricista";
 import Trasporti from "./components/pages/Trasporti";
 import Contact from "./components/pages/contact";
 import ScrollButton from "./components/ScrollButton";
+import Footer from "./components/pages/Footer";
 import { I18nextProvider } from "react-i18next";
 import i18n from "./i18n";
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Imbianchino />
       <Elettricista />
       <Contact />
+      <Footer />
       <ScrollButton />
     </div>
   );

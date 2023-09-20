@@ -3,7 +3,8 @@ import "../../App.css";
 import logo from "../../logo.svg";
 import LanguageSelector from "../LanguageSelector";
 import { useTranslation } from "react-i18next";
-
+import { FaPeopleCarry, FaPaintRoller } from "react-icons/fa";
+import { AiTwotoneThunderbolt } from "react-icons/ai";
 const Home = () => {
   const { t } = useTranslation();
 
@@ -35,11 +36,12 @@ const Home = () => {
           </li> */}
 
           <li>
-            <a href="#" onClick={scrollToContact}>
+            <a onClick={scrollToContact} style={{ cursor: "pointer" }}>
               {t("homePage.contact")}
             </a>
           </li>
         </ul>
+        <div className="spacer"></div>
         <LanguageSelector />
       </div>
 
@@ -50,13 +52,40 @@ const Home = () => {
           <h2>{t("homePage.works")}</h2>
           <div>
             <button className="buton" onClick={scrollToTransporti}>
-              {t("homePage.transporter")}
+              <div className="button-content">
+                <FaPeopleCarry
+                  style={{
+                    marginBottom: "5px",
+                    color: "green",
+                    fontSize: "2em",
+                  }}
+                />
+                {t("homePage.transporter")}
+              </div>
             </button>
             <button className="buton" onClick={scrollToImbianchino}>
-              {t("homePage.paint")}
+              <div className="button-content">
+                <FaPaintRoller
+                  style={{
+                    marginBottom: "5px",
+                    color: "green",
+                    fontSize: "2em",
+                  }}
+                />
+                {t("homePage.paint")}
+              </div>
             </button>
             <button className="buton" onClick={scrollToElettricista}>
-              {t("homePage.flash")}
+              <div className="button-content">
+                <AiTwotoneThunderbolt
+                  style={{
+                    marginBottom: "5px",
+                    color: "green",
+                    fontSize: "2em",
+                  }}
+                />
+                {t("homePage.flash")}
+              </div>
             </button>
           </div>
         </div>
